@@ -28,6 +28,10 @@ public class DisplayMessageActivity extends ActionBarActivity {
 
 	    // Set the text view as the activity layout
 	    setContentView(textView);
+
+	    // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        // If your minSdkVersion is 11 or higher, instead use:
+        getActionBar().setDisplayHomeAsUpEnabled(false);
 		
 	}
 
